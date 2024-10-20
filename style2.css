@@ -1,0 +1,22 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    width: 95%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.one,.two,.three,.four {
+    background-color: rgb(23, 121, 240);
+    border-radius: 5px;
+    padding: 10px;
+}
+.one {
+    grid-column: span 2;
+}
+
+.two {
+    grid-row: span 2;
+}

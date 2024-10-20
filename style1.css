@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.a,.b,.c {
+    background-color: rgb(25, 186, 255);
+    padding: 100px;
+    margin: 1px;
+    border-radius: 5px;
+}
